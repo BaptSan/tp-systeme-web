@@ -1,0 +1,14 @@
+#content {
+	min-height: calc(100vh - 320px);
+}
+
+#box {
+	display: none;
+	background-color: red;
+	apdding: 15px;
+	margin-top: 20px;
+}
+
+#box.active {
+	display: block;
+}
